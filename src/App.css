@@ -1,0 +1,39 @@
+.mainTable {/*Tabla*/
+    width: 400px;
+    background-color: rgba(9, 87, 113, 0.5);
+    border-radius: 20px;
+    margin:1.5% auto 1em auto ;
+    padding: 20px 10px 12px 10px;
+    border:1px solid rgba(10, 68, 92, 0.5);
+    box-shadow: 0px 8px 50px rgba(0,0,0,0.6);
+    background: linear-gradient(to bottom ,#095B80,#021F28 30%);
+}
+
+#entrada {/*Input*/
+    position: relative;
+    font-size: 1.8em;
+    padding: 3%;
+    width: 93%;
+    background-color: rgb(49,98,106);
+    border-radius: 10px;
+    border: 1px solid rgb(4,46,60);
+    box-shadow: 0px 0px 5px black;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+.mainTable h1 {/*titulo: Calculadora*/
+    display: inline;
+    font-family: verdana;
+    font-weight: 100;
+}
+
+.mainTable thead img {/*Imagen de react*/
+    display: inline;
+    position: relative;
+    width: 40px;
+    top: 5.5px;
+    margin-right: 10px;
+}
+

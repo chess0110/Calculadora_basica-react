@@ -1,0 +1,39 @@
+.mainHistorial {
+    height: 20em;
+    width: 70%;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    background: linear-gradient(to bottom ,#021F28,#074B69,#021F28)
+}
+
+.mainHistorial ul li {
+    list-style: none;
+    background-color: none;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 2.5px 5px 2px 5px;
+    border-radius: 8px;
+}
+
+
+.mainHistorial ul li p {
+    flex: 1; 
+    background-color: rgba(49,98,106,0.3);
+    padding: 5px 10px;
+    font-size: 1.35em;
+    box-shadow: 1px 1px 10px black;
+    letter-spacing: 1px;
+    color: rgb(182, 181, 181);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 0; 
+}
+
+.mainHistorial ul {
+    margin-bottom: 15px;
+    padding: 0px 10px 0px 10px;
+
+}
